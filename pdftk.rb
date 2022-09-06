@@ -15,8 +15,6 @@ class Pdftk < Formula
     :using => PkgExtract
   sha256 'c33cf95151e477953cd57c1ea9c99ebdc29d75f4c9af0d5f947b385995750b0c'
 
-  # depends_on macos: ">= :big_sur"
-
   depends_on arch: :arm64
 
   def install
